@@ -2,7 +2,6 @@ import './App.css'
 import { Outlet } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import {useState} from 'react';
-import { fetchCharacter } from './script'
 
 interface CharacterData{
   id: string;
